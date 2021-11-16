@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    background: beige;
+}
+.cabecera{
+    background:rgb(14, 170, 40);
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    top:100px;
+    margin-top:-100px;
+    z-index: 2;
+    
+    
+}
+
+#img_logo{
+    
+    width: 150px;;
+    height: 100px;
+    padding:0;
+    margin:0;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+}
+.tit{
+    
+   
+    position: absolute;
+    top:0;
+    left: 170px;
+    right:0;
+    bottom: 0;
+    padding-top:10px ;
+    padding-left: 0;
+    display:inline-block;
+    
+    
+}
+
+.cabecera_logo{
+  
+    width: 450px;
+    height:100px;
+   
+
+
+}
+
+
+
+@media only screen and (max-width:800px){
+    div{
+        width:100%;
+        display: block;
+    }
+    aside{
+        width:100%;
+        display: block;
+
+    }
+
+    iframe{
+        width:300px;
+        height:200px;
+    }
+    .form{
+        width: 75%;
+        
+    }
+}
+
+.navmen{
+    position: absolute;
+    top:0;
+    right:0;
+    padding-top:10px ;
+
+}
+
+.navmen_nav_li{
+    display: inline-block;
+    padding:12px;
+    color:white;
+    margin-right: 25px;
+    
+}
+
+.navmen_nav_li:hover>a{
+    background: black;
+    
+    
+}
+
+.navmen_nav_li:hover i{
+    background: black;
+
+}
+.navmen_nav_li i{
+    width: 30px;
+    box-sizing: border-box;
+    
+}
+
+.navmen_nav_li a{
+    text-decoration: none;
+    color:white;
+} 
+
+.navmen_responsive_ul{
+    display: none;
+}
+
+
+#inicio{
+
+    box-sizing: border-box;
+    width:80%;
+    outline:1px solid black;
+    margin-top: 102px !important;
+
+}
+
+#vi1{
+    width:100px;
+    height:100px;
+    position:relative;
+    float:left;
+    
+    
+
+    
+}
+
+#villancicos{
+    background:beige;
+    width:80%;
+    border:1px solid black;
+}
+
+.form{
+    background: beige;
+    border-radius: 2px;
+    width:400px;
+    height:500px;
+    object-fit: cover;
+    
+}
+aside , .feliz{
+    text-align: center;
+    font-size: 70pt;
+    color:yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+}
+#contactenos{
+    background: beige;
+    width: 80%;
+    border:1px solid black;
+    height:600px;
+
+}
+
+footer{
+    background: green;
+    width: 100%;
+    margin-bottom: -300px !important;
+    margin-top:-20px;
+    text-align: center;
+    color:white;
+    
+
+
+    
+}
+
+#aside{
+    background:red;
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top: 102px;
+    width: 20%;
+    height: 235%;
+    z-index: -1;
+
+}
+
+section{
+    margin-top:-1px;
+    background:beige;
+}
+
+.nav_responsive_button{
+    float:right;
+    padding:6px 20px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:854px){
+    .navmen_nav_ul{
+        display: none;
+    }
+
+    .navmen_responsive_ul{
+        display: block;
+    }
+}
